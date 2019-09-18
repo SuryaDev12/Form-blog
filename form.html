@@ -1,16 +1,53 @@
 <!doctype html>
 <html>
-<head></head>
+<head>
+<style>
+fieldset{
+border:1px solid white;
+}
+body{
+background-image: url('http://blog.oup.com/wp-content/uploads/2016/08/tech.jpg');
+background-size: cover;
+background-color:blue;
+color:snow white;
+}
+h1{
+font-size: 100px;
+}
+form{
+text-align: center;
+color: white;
+}
+p{
+font-size:50px;
+}
+header{
+text-align: center;
+background-image: url('http://blog.oup.com/wp-content/uploads/2016/08/tech.jpg');
+background-size: cover;
+color: white;
+}
+ 
+</style>
+
+</head>
+
 <body>
+<header>
 <center>
+
 <h1> <textalign = "center">SIGN UP</h1>
-<p> This form is for Chitkara University</p>
+
+<p> This form is to register into Surya's blog website!</p>
+
+</header>
 <form align ="center" action="blog.html">
-First Name : <br> <input type="text" value="Enter here"><br>
-Last Name :<br><input type ="text" value="Enter here"><br>
-Gender : <br><input type="radio" value="male">Male<br>
-<input type="radio" value="female">Female<br>
-<input type="radio" value="others">Others<br>
+<fieldset>
+First Name : <input type="text" value="First Name"><br>
+Last Name  :	 <input type ="text" value="Last Name"><br>
+Gender     : <input type="radio" name="gender" value="male" checked >Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="others">Others<br>
 User Name : 
 <input type="text" value="Enter here"><br>
 Password : 
@@ -21,7 +58,7 @@ Password :
 
 
 
-
+</fieldset>
 </form>
 </center>
 </body>
